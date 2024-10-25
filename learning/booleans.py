@@ -1,3 +1,67 @@
+# Video Notes #
+
+language= 'Java'
+
+
+if language == 'python':
+    print('Language is Python')
+elif language =='Java':
+    print('Language is Java')
+elif language =='JavaScript':
+    print('Language is JavaScript')
+else:
+    print('No match')
+
+
+
+# Comparisons:
+# Equal:            ==
+# Not Equal:        !=
+# Greater than:      >
+# Less than:         <
+# Greater or Equal: >=
+# Less or Equal:    <=
+# Object Identity:  is
+
+# and
+# or
+# not
+
+user= 'admin'
+logged_in= False
+if not logged_in:
+    print('Please Log In')
+else:
+    print('Welcome')
+
+a = [1,2,3]
+b = a
+print(a is b)
+
+print(id(a))
+print(id(b))
+print(a is b)
+
+
+### False Values:
+    # False
+    # None
+    # Zero of any numerical type
+    # Any empty sequence. For Example, '', (), [].
+    # Any empty mapping. For example, {}.
+
+condition = {}
+if condition:
+    print('Evaluated to True')
+else:
+    print('Evaluated to False')
+
+
+
+
+
+
+
 
 ############################################################################
 # Boolean expressions are statements that can be either True or False. In Python, the boolean data type is represented by the built-in data type bool.
@@ -57,7 +121,6 @@
 # x = 5
 # print(x > 3 or x > 10)  # True
 # not: Reverse the result, returns False if the result is true.
-
 # x = 5
 # print(not(x > 3 and x < 10))  # False
 # 3. Membership Operators:
@@ -82,9 +145,9 @@
 # x = [1, 2, 3]
 # y = [1, 2, 3]
 # print(x is not y)  # True
-# fruits = ['apple', 'banana', 'cherry']
-# print('apple' in fruits)      # True
-# print('grape' not in fruits)  # True
+fruits = ['apple', 'banana', 'cherry']
+print('apple' in fruits)      # True
+print('grape' not in fruits)  # True
 # a = [1, 2, 3]
 # b = [1, 2, 3]
 # c = a
