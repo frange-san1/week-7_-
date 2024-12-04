@@ -10,7 +10,7 @@ from learning import loops
 
 from learning import min_max
 
-from learning import random
+from Week9.learning import random_2
 
 from learning import logical_operators
 

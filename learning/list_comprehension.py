@@ -1,4 +1,44 @@
 
+# List Comprehesnsion = A concise way to create lists in python
+                    #   Compact and easier to read than traditional loops
+                    #   [expression for value in iterable if conditional]
+
+# doubles = []
+# for x in range(1,11):
+#     doubles.append(x * 2)
+# print(doubles)
+
+# doubles = [x* 2 for x in range(1,11)]
+# triples = [y * 3 for y in range(1,11)]
+# squares = [z *z for z in range(1,11)]
+# print(doubles)        #Prints out doubles
+# print(triples)        #Prints out triples
+# print(squares)        #Prints out squares
+
+# fruits = ["apple", "orange", "banana", "coconut"]
+# # fruits = [fruit.upper() for fruit in fruits]        #Prints out the fruits in uppercase
+# # print(fruits)
+
+# fruit_chars = [fruit[1].upper() for fruit in fruits]      
+# print(fruit_chars)
+
+# numbers = [1, -2, 3, -4, 5, -6, 8]
+# positive_nums = [num for num in numbers if num >=0]
+# print(positive_nums)                                    #Prints out the positive numbers in numbers list
+# negative_nums = [num for num in numbers if num <0]
+# print(negative_nums)                                    #Prints out the negative numbers in numbers list
+# even_nums = [num for num in numbers if num % 2 == 0]
+# print-(even_nums)                                       #Prints out even numbers in numbers list
+# odd_nums = [num for num in numbers if num % 2 != 0]
+# print(odd_nums)
+
+grades = [85, 42, 79, 90, 56, 61, 20]
+
+passing_grades = [grade for grade in grades if grade >=60]
+
+print(passing_grades)
+
+
 
 ################################################List comprehension###############################################
 # List Comprehensions Practice #1
